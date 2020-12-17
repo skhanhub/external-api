@@ -1,10 +1,8 @@
 from requests import Session
 import concurrent.futures
-import pprint
 from datetime import datetime
 from services.processMovies import ProcessMovies
 
-pp = pprint.PrettyPrinter(indent=4)
 class ProcessMovieNames(ProcessMovies):
   def __init__(self, accessToken = '', baseURL = '', cinemas = [], timeout = 2000):
     self.accessToken = accessToken  
