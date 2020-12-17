@@ -17,8 +17,9 @@ Set the following environment variables:
 -  FLASK_APP: Flask App entry point (set it to server.py)
 -  FLASK_ENV: development or production
 ```
-<b>export FLASK_APP=server.py</b>
-<b>export ACCESS_TOKEN=<Token></b>
+<b>export FLASK_APP=server.py</b><br>
+<b>export ACCESS_TOKEN=[Token]</b>
+  
 build the static code
 ```
 cd ./client
